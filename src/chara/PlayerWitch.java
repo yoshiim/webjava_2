@@ -12,11 +12,7 @@ public class PlayerWitch extends PlayerBase {
     setDefense(10);
     setMagicAttack(15);
     setMagicDefense(10);
-  }
-
-  @Override
-  public int getMaxHitPoint() {
-    return 100;
+    setMaxHitPoint(100);
   }
 
   @Override

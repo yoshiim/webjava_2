@@ -12,11 +12,7 @@ public class EnemyGoblin extends EnemyBase {
     setDefense(10);
     setMagicAttack(5);
     setMagicDefense(5);
-  }
-
-  @Override
-  public int getMaxHitPoint() {
-    return 100;
+    setMaxHitPoint(100);
   }
 
   @Override

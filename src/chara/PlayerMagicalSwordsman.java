@@ -12,11 +12,7 @@ public class PlayerMagicalSwordsman extends PlayerBase {
     setDefense(15);
     setMagicAttack(5);
     setMagicDefense(5);
-  }
-
-  @Override
-  public int getMaxHitPoint() {
-    return 100;
+    setMaxHitPoint(100);
   }
 
   @Override

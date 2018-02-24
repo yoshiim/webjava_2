@@ -14,6 +14,8 @@ public abstract class Character {
   private int defense;
   /** 魔法防御力. */
   private int magicDefense;
+  /** 最大HP. */
+  protected int maxHitPoint;
 
   /**
    * 名前を設定.
@@ -111,6 +113,19 @@ public abstract class Character {
     return this.magicDefense;
   }
 
+  /**
+   * 最大HPを設定.
+   * @param maxHitPoint 最大HP.
+   */
+  public void setMaxHitPoint(final int maxHitPoint) {
+    this.maxHitPoint = maxHitPoint;
+  }
 
-  public abstract int getMaxHitPoint();
+  /**
+   * 最大HPを取得.
+   * @return 最大HP.
+   */
+  public int getMaxHitPoint() {
+    return maxHitPoint;
+  }
 }

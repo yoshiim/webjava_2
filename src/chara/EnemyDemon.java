@@ -12,17 +12,11 @@ public class EnemyDemon extends EnemyBase {
     setDefense(5);
     setMagicAttack(15);
     setMagicDefense(15);
-  }
-
-  @Override
-  public int getMaxHitPoint() {
-    // TODO 自動生成されたメソッド・スタブ
-    return 100;
+    setMaxHitPoint(100);
   }
 
   @Override
   public int getReward() {
-    // TODO 自動生成されたメソッド・スタブ
     return 50;
   }
 

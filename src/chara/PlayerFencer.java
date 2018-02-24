@@ -12,11 +12,7 @@ public class PlayerFencer extends PlayerBase {
     setDefense(10);
     setMagicAttack(5);
     setMagicDefense(10);
-  }
-
-  @Override
-  public int getMaxHitPoint() {
-    return 100;
+    setMaxHitPoint(100);
   }
 
   @Override
